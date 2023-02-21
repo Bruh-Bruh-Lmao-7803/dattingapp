@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\API",
+    "\\API\\Controllers",
+    "\\API\\Data",
+    "\\API\\Data\\Migrations",
+    "\\API\\Entities",
+    "\\API\\Properties",
+    "\\DatingApp"
+  ],
+  "SelectedNode": "\\API\\Controllers\\UsersController.cs",
+  "PreviewInSolutionExplorer": false
+}
