@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\client",
-    "\\client\\src"
+    "\\API",
+    "\\API\\Entities"
   ],
+  "SelectedNode": "\\DatingApp.sln",
   "PreviewInSolutionExplorer": false
 }
