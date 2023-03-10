@@ -59,3 +59,11 @@ C:\Users\Quan NM\source\repos\DatingApp\API\bin\Debug\net5.0\runtimes\win-x64\na
 C:\Users\Quan NM\source\repos\DatingApp\API\bin\Debug\net5.0\runtimes\win-x86\native\e_sqlite3.dll
 C:\Users\Quan NM\source\repos\DatingApp\API\bin\Debug\net5.0\Humanizer.dll
 C:\Users\Quan NM\source\repos\DatingApp\API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Quan NM\source\repos\DatingApp\API\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Quan NM\source\repos\DatingApp\API\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Quan NM\source\repos\DatingApp\API\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Quan NM\source\repos\DatingApp\API\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Quan NM\source\repos\DatingApp\API\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Quan NM\source\repos\DatingApp\API\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Quan NM\source\repos\DatingApp\API\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Quan NM\source\repos\DatingApp\API\bin\Debug\net5.0\Newtonsoft.Json.dll

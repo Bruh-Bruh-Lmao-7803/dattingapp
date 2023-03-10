@@ -2,8 +2,11 @@
   "ExpandedNodes": [
     "",
     "\\API",
+    "\\API\\Controllers",
+    "\\API\\Data",
+    "\\API\\Data\\Migrations",
     "\\API\\Entities"
   ],
-  "SelectedNode": "\\DatingApp.sln",
+  "SelectedNode": "\\API\\Controllers\\AccountController.cs",
   "PreviewInSolutionExplorer": false
 }
