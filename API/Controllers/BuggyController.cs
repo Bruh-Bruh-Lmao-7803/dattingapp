@@ -2,7 +2,6 @@ using API.Data;
 using API.Entities;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using System;
 
 namespace API.Controllers
 {
@@ -16,7 +15,7 @@ namespace API.Controllers
 
         [Authorize]
         [HttpGet("auth")]
-        public ActionResult<string>GetSecret()
+        public ActionResult<string> GetSecret()
         {
             return "secret text";
         }
@@ -28,18 +27,17 @@ namespace API.Controllers
 
             if (thing == null) return NotFound();
 
-            return Ok(thing);
+            return thing;
         }
 
         [HttpGet("server-error")]
-        public ActionResult<string> GetSeverError()
+        public ActionResult<string> GetServerError()
         {
             var thing = _context.Users.Find(-1);
 
             var thingToReturn = thing.ToString();
 
             return thingToReturn;
-            
         }
 
         [HttpGet("bad-request")]
@@ -47,6 +45,5 @@ namespace API.Controllers
         {
             return BadRequest("This was not a good request");
         }
-
     }
 }
