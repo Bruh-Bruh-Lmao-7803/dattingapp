@@ -2,14 +2,6 @@ namespace API.Errors
 {
     public class ApiException
     {
-        private string v;
-
-        public ApiException(int statusCode, string v)
-        {
-            StatusCode = statusCode;
-            this.v = v;
-        }
-
         public ApiException(int statusCode, string message, string details)
         {
             StatusCode = statusCode;

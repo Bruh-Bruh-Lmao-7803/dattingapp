@@ -45,6 +45,16 @@ namespace API
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "API", Version = "v1" });
             });
             services.AddIdentityServices(_config);
+            services.AddCors(options =>
+            {
+                options.AddPolicy("AllowAllHeaders",
+                    builder =>
+                    {
+                        builder.AllowAnyOrigin()
+                               .AllowAnyHeader()
+                               .AllowAnyMethod();
+                    });
+            });
 
         }
 
@@ -53,11 +63,13 @@ namespace API
         {
             app.UseMiddleware<ExceptionMiddleware>();
 
-            app.UseHttpsRedirection();
-
             app.UseRouting();
 
             app.UseCors(x => x.AllowAnyHeader().AllowAnyMethod().WithOrigins("https://localhost:5001"));
+            // Shows UseCors with named policy.
+            app.UseCors("AllowAllHeaders");
+
+            app.UseHttpsRedirection();
 
             app.UseAuthentication();
             app.UseAuthorization();

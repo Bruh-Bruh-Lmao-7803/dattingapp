@@ -74,3 +74,5 @@ C:\Users\Quan NM\source\repos\DatingApp\API\bin\Debug\net5.0\Microsoft.Extension
 C:\Users\Quan NM\source\repos\DatingApp\API\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
 C:\Users\Quan NM\source\repos\DatingApp\API\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
 C:\Users\Quan NM\source\repos\DatingApp\API\bin\Debug\net5.0\Data\UserSeedData.json
+C:\Users\Quan NM\source\repos\DatingApp\API\bin\Debug\net5.0\AutoMapper.dll
+C:\Users\Quan NM\source\repos\DatingApp\API\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
