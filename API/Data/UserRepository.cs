@@ -40,6 +40,11 @@ namespace API.Data
             return await _context.Users.FindAsync(id);
         }
 
+        public Task GetUserByNameAsync(string username)
+        {
+            throw new System.NotImplementedException();
+        }
+
         public async Task<AppUser> GetUserByUsernameAsync(string username)
         {
             return await _context.Users

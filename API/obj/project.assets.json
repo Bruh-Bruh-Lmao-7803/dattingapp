@@ -5183,11 +5183,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Quan NM\\source\\repos\\DatingApp\\APi\\API.csproj",
+      "projectUniqueName": "C:\\Users\\Quan NM\\source\\repos\\DatingApp\\API\\API.csproj",
       "projectName": "API",
-      "projectPath": "C:\\Users\\Quan NM\\source\\repos\\DatingApp\\APi\\API.csproj",
+      "projectPath": "C:\\Users\\Quan NM\\source\\repos\\DatingApp\\API\\API.csproj",
       "packagesPath": "C:\\Users\\Quan NM\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Quan NM\\source\\repos\\DatingApp\\APi\\obj\\",
+      "outputPath": "C:\\Users\\Quan NM\\source\\repos\\DatingApp\\API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Quan NM\\AppData\\Roaming\\NuGet\\NuGet.Config",
