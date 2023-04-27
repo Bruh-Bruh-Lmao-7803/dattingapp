@@ -76,3 +76,4 @@ C:\Users\Quan NM\source\repos\DatingApp\API\bin\Debug\net5.0\System.Runtime.Comp
 C:\Users\Quan NM\source\repos\DatingApp\API\bin\Debug\net5.0\Data\UserSeedData.json
 C:\Users\Quan NM\source\repos\DatingApp\API\bin\Debug\net5.0\AutoMapper.dll
 C:\Users\Quan NM\source\repos\DatingApp\API\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Quan NM\source\repos\DatingApp\API\bin\Debug\net5.0\CloudinaryDotNet.dll
